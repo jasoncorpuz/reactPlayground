@@ -21,7 +21,7 @@ class RouletteGun extends React.Component {
     handeClick = (e) => {
         this.setState({
             spinningTheChamber:true
-        })
+        }) 
         setTimeout(()=>{
         const random = Math.floor(Math.random() * 8) + 1 
         console.log(random);
